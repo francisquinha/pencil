@@ -1,0 +1,9 @@
+We contacted the main contributor of this project, but unfortunately he did not reply to our email (it might fell on his spam pit). So we don’t have his own overview on his project. That said we will never know anything else besides our own opinion on this topic, so it’s up to us to give our final thoughts in all of this.
+	
+This project is the salvaged remains of an older project named “Pencil”
+Its developing team is not diverse neither numerous( just a few contributors and most of them don’t even add features, but just code restructuring)
+Although many features were already implemented in Pencil2D’s beginning there has been some improvements to the previous features and new features have been added.
+There was a peek on its developing around the ending of July and beginning of August around 2013 with various branches from different contributors.
+There aren’t any milestone fulfilled, and its requirements are mainly bug fixes.
+
+	From our analysis this project might not even have a software process model. One thing we are completely sure of is that it didn’t follow the Waterfall Model because there is a constant roll back between design, testing and feature being added. There is also some planning in what seems to be a “modular design” approach which should make the development more flexible and accessable.So it’s unanimous that it was a somewhat flexible process. We might risk to say that it followed Boehm’s Spiral Model, it’s safe to say the development of this process consisted in inumerous bug fixes and quality of life checks as there was being added more features.
