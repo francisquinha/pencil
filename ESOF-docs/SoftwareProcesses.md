@@ -169,7 +169,7 @@ In any case, even though one can assume there are no cost and time pressures, a 
 
 ## Conclusion
 
-We contacted the main contributor of this project, but unfortunately he did not reply to our email (it might have fallen on his spam pit). So we don’t have his own overview on his project. That said we will never know anything else besides our own opinion on this topic, so it’s up to us to give our final thoughts in all of this.
+We contacted the main contributor of this project, but unfortunately he did not reply to our email (it might have fallen on his spam pit). So we don’t have his own overview on his project. That said we will never know anything else besides our own opinion on this topic, so it’s up to us to give our final thoughts in all of this. Since information related to the project is quite spread, not knowing specifics about the original pencil project state and not being able to clarify anything with the main contributor, our opinion maybe be a bit blunt. Before asserting our conclusion, we expose a summarized state of the current project.
 
 1. This project is the salvaged remains of an older project named Pencil.
 2. Its developing team is not diverse neither numerous, just a few contributors and most of them don’t even add features, but just code restructuring.
@@ -178,3 +178,19 @@ We contacted the main contributor of this project, but unfortunately he did not 
 6. There are no milestones fulfilled, and most of the requirements are bug fixes.
 
 From our analysis this project might not have truly adopted a software process model. One thing we are completely sure of is that it does not follow the Waterfall Model, because there is a constant roll back between design, testing and features being added. There is also some planning in what seems to be a modular design approach, which should make the development more accessible. So it is clear that the process is flexible. While there is a kind of circular development model, with numerous bug fixes and quality of life checks as more features were being added, there seems to be no particular concern with risk management, thus it is probably not following Boehm’s Spiral Model. What we do have is successive software versions being released and tested, leading to redefined objectives, which corresponds to an Incremental Delivery approach.
+
+## Bibliography
+
+1. Github, "pencil2d/pencil". [Online].
+Last access on 4/10/2015 at: https://github.com/pencil2d/pencil
+
+2. Pencil2D, "Pencil2D – opensource animation software" ?. [Online].
+Last access on 4/10/2015 at:  http://www.pencil2d.org/
+
+3. Wikipedia, “Software development process”  10:05, 30 September 2015. [Online].
+Last access on 3/10/2015 at: http://en.wikipedia.org/wiki/Travelling_salesman_problem
+
+4. FEUP - MIEIC - ENGENHARIA DE SOFTWARE – 2015/16,"SOFTWARE PROCESSES". [Online].
+Last access on 3/10/2015 at: http://moodle.up.pt/pluginfile.php/61587/mod_resource/content/3/Software%20Processes.pdf
+
+5. Sommerville Ian, Software Engineering 9th Edition (missing stuff)
