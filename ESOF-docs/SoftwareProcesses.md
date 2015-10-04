@@ -6,7 +6,7 @@
 
 A software process is a set of activities that result in a software product. Some of these activities involve programming in one or more languages, but that is not the whole software process or even the most crucial part. Aside from coding and even designing or testing, a true software process should guarantee that the final product will satisfy the needs of the client, will be done in the time frame established and will be cost effective.
 
-The equilibrium between scope, schedule and cost is very difficult to obtain. The client will typically pull for a large scope, within a reduced schedule and with a small cost. While the development team will probably need to partly compromise at least one of these three aspects. But once an agreement as been reached to what point of this triangle one is aiming, that contract needs to be respected and that must never come at the cost of quality.
+The equilibrium between scope, schedule and cost is very difficult to obtain. The client will typically pull for a large scope, within a reduced schedule and with a small cost. While the development team will probably need to partly compromise at least one of these three aspects. But once an agreement as been reached to what point of this triangle one is aiming, this contract needs to be respected and that must never come at the cost of quality.
 
 <div align="center">
 	<img src=pyramid.jpg height=200>
@@ -24,45 +24,45 @@ This constant evolution in software specification is why some older software mod
 
 Due to the failing of the Waterfall Model, with delays becoming a constant in software development, more adaptive software process models have emerged. One of these models is Incremental Delivery, in which the activities are interleaved, in order to develop each successive version of the software. In this approach, each increment adds some functionalities to the software, usually the more urgent ones, making these features available throughout the development, instead of doing it in bulk near the end of the development process.
 
-A kind of Incremental Delivery software process that is mainly oriented at risk management is the Spiral Model proposed by Boehm in 1988, that is illustrated in the following image.
+A kind of Incremental Delivery software process that is mainly oriented at risk management is the Spiral Model proposed by Boehm in 1988, which is illustrated in the following image.
 
 <div align="center">
 	<img src=spiral.jpg height=500>
 </div>
 
-In what follows we analyze Pencil2D and the aspects of its development, trying to identify the software processes it might have used. 
+In what follows we analyze Pencil2D and some of the aspects of its development, trying to identify the software processes it might be using. 
 
 ### About Pencil2D
 
-Pencil2D is a kind of resurrected software. It was born around 2013 when the development of Pencil halted. According to its creators (Pascal Naidon and Patrick Corrieri), Pencil was meant to be an open source animation tool, using bitmap and vector graphics. The idea was to make and aid to the slow painful process of traditional animation, that consists of having successive slightly different images.
+Pencil2D is a kind of resurrected software. It was born around 2013 when the development of Pencil halted. According to its creators (Pascal Naidon and Patrick Corrieri), Pencil was meant to be an open source animation tool, using bitmap and vector graphics. The idea was to create an aid to the slow painful process of traditional animation, that consists of having successive slightly different images.
 
-Although at the time of its demise (version 0.4.4b) Pencil already had a quite rich [set of features](http://www.pencil2d.org/2010/06/the-vision-for-pencil-by-pascal-naidon/), it was still in a beta release, thus having many bugs, as well as a opportunity for further developments. Thus, at the impossibility from the creators of continuing their project, [Matt Chang](https://github.com/chchwy) stepped forward and started a fork called [Pencil2D](http://www.pencil2d.org).
+Although at the time of its demise (version 0.4.4b) Pencil already had a quite rich [set of features](http://www.pencil2d.org/2010/06/the-vision-for-pencil-by-pascal-naidon/), it was still in a beta release, thus having many bugs, as well as opportunities for further developments. At the impossibility from the creators of continuing their project, [Matt Chang](https://github.com/chchwy) stepped forward and started a fork called [Pencil2D](http://www.pencil2d.org).
 
 <div align="center">
 	<img src=pencil.jpg height=500>
 </div>
 
-After several beta releases, Pencil2D is now in version 0.5.4b and is attempting to reach 0.5.5b, one of its milestones. It is still plagued by several bugs, some of which are related to its initial objective of being a cross-platform application. A list of issues is maintained, with feature requests and enhancements in addition to bugs, and it is this list that somewhat guides the increments being developed at each stage.
+After several beta releases, Pencil2D is now in version 0.5.4b and Matt Change is attempting to reach 0.5.5b, one of the milestones. The application is still plagued by several bugs, some of which are related to its initial objective of being a cross-platform application. A list of issues is maintained, with feature requests and enhancements in addition to bugs, and it is this list that guides the increments being developed at each stage.
 
 ## Software Process Roles
 
-In any software development process there are different roles performed by the people involved. If the team is not very strictly organized, these roles may be somewhat merged and performed by a same person. This seems to be the case with Pencil2D, as we discuss below, where we present the main roles that can be found in the project.
+In any software development process there are different roles performed by the people involved. If the team is not very strictly organized, these roles may be somewhat merged and performed by a same person. This seems to be the case with Pencil2D, as we discuss below, where we present the main roles that can be found in the project. Although in general there may be other roles, we present here the ones we have found in Pencil2D.
 
 ### Client
 
 In general, the role of the client is performed by a representative of the organization that requested the software. Sometimes, the person performing this role is not from the client company, but from the development company. In any case, its the job of this person to guarantee that the software requirements are met, as well as generally speak for the client company.
 
-Pencil2D does not have a client company. Not in the strict sense at least. The software is simply being developed for anyone who might have an interest in its features. Although "random" people on the internet do make feature requests, these people do not have a representative that coordinates their efforts. Also, since they are not paying for anything, there is a clear limit to how much pressure they can place on the development team. Thus, the role of the client is somewhat performed by whomever decides to use the application and comment on it, but with many restrictions in their power to really influence the development process.
+Pencil2D does not have a client company. Not in the strict sense at least. The software is simply being developed for anyone who might have an interest in its features. Although "random" people on the internet do make feature requests, these people do not have a representative that coordinates their efforts. Also, since they are not paying for anything, there is a clear limit to how much pressure they can place on the development team. Thus, in a way, the role of the client is performed by whomever decides to use the application and comment on it, but with many restrictions in their power to really influence the development process.
 
 ### Project Manager
 
 The project manager is, in a sense, the leader of the development team. It is their responsibility to supervise the planning, execution and, eventually, conclusion of the project. Also, most of the decisions may fall on the project manager.
 
-Currently, the project manager of Pencil2D seems to be the main developer: Matt Chang. This is the person in charge of driving the project forward, either by personally contributing with increments, or by coordinating the efforts of others and ensuring that their contributions are successfully merged. Matt is also the person that started Pencil2D, by forking it from the "dead" project Pencil.
+Currently, the project manager of Pencil2D seems to be the main developer: Matt Chang. This is the person in charge of driving the project forward, either by personally contributing with increments, or by coordinating the efforts of others and ensuring that their contributions are successfully merged.
 
 ### Developer
 
-The developer(s) of a software project are responsible for both the design and the programming. In ancient software development methods, these roles where performed by different people. While some would theoretically conceive the whole application, like the architects who create the plans for a building; others would actually code these ideas, thus being the constructors of the building. This is not the case anymore, not in any current software development process. The main reason for this being the fact that, these days, software is so complex and has so many lines of code, it would be virtually impossible for any person to simply conceive the whole design, while not getting involved in the actual programming.
+The developers of a software project are responsible for both the design and the programming. In ancient software development methods, these roles where performed by different people. While some would theoretically conceive the whole application, like the architects who create the plans for a building; others would actually code these ideas, thus being the constructors of the building. This is not the case anymore, not in any current software development process. The main reason for this is the fact that, these days, software is so complex and has so many lines of code, it would be virtually impossible for any person to simply conceive the whole design, while not getting involved in the actual programming.
 
 As stated above, Pencil2D has a main developer, who contributes most of the design and code. The other developers, making a current total of 14, vary a lot productivity. Some have only made on or two short commits, while others have contributed some thousand lines of code. In any case, they all seem to be free agents, instead of belonging to a cohesive team. 
 
@@ -71,6 +71,12 @@ The following image illustrates the contribution of some of the project members.
 <div align="center">
 	<img src= contributors.bmp height=800>
 </div>
+
+### Tester
+
+Every piece of software needs to be tested. Many times, this is done together with development and often by the same people. This seems to be the case in part with Pencil2D, since there is no team or person whose single job is to test what others have developed. Actually, there is a set of software tests that has been created precisely by the developers.
+
+This does not mean however that the only testers in Pencil2D are developers. Anybody can be a tester and many people have done so, by installing the application and reporting bugs. These testers are precisely the same people playing the role of client, both benefiting from the software and helping its development with their real use test cases.
 
 ## Software Process Activities
 
@@ -139,7 +145,7 @@ There is also some clear evolutionary contribution made by the end users. In add
 
 ## Factors to consider
 
-Putting our critical thinking on matters of development processes we tried to identify project characteristics that could be relevant in terms of deciding the general methodology process philosophy in this type of projects.  The picture below contains the synthesizes our analysis.
+Putting our critical thinking on matters of development processes we tried to identify project characteristics that could be relevant in terms of deciding the general methodology process philosophy in this type of projects. The picture below contains the synthesizes of our analysis.
 
 <div align="center">
 	<img src= thought_bubble.png height=600>
@@ -169,7 +175,9 @@ In any case, even though one can assume there are no cost and time pressures, a 
 
 ## Conclusion
 
-We contacted the main contributor of this project, but unfortunately he did not reply to our email (it might have fallen on his spam pit). So we don’t have his own overview on his project. That said we will never know anything else besides our own opinion on this topic, so it’s up to us to give our final thoughts in all of this. Since information related to the project is quite spread, not knowing specifics about the original pencil project state and not being able to clarify anything with the main contributor, our opinion may be a bit blunt. Before asserting our conclusion, we expose a summarized state of the current project.
+We contacted Matt Chang, the main contributor of this project, but unfortunately, up to this point, he did not reply to our email (it might have fallen on his spam pit). So we don’t have his own overview on his project. That said, we will never know anything else besides our own opinion on this topic, so it’s up to us to give our final thoughts in all of this. 
+
+The information related to the project is quite scattered, some of it is on GitHub and some in the projects webpage, whose organization is not entirely clear to us. Thus, we do not know all the specifics about the original pencil project state. Also, we have a limited understanding of the current version, so our opinion may be a bit blunt. Before asserting our conclusion, we expose a summarized state of the current project.
 
 1. This project is the salvaged remains of an older project named Pencil.
 2. Its developing team is not diverse neither numerous, just a few contributors and most of them don’t even add features, but just code restructuring.
@@ -177,20 +185,24 @@ We contacted the main contributor of this project, but unfortunately he did not 
 4. There was a peek on its developing around the end of July and beginning of August of 2013, with various branches from different contributors.
 6. There are no milestones fulfilled, and most of the requirements are bug fixes.
 
-From our analysis this project might not have truly adopted a software process model. One thing we are completely sure of is that it does not follow the Waterfall Model, because there is a constant roll back between design, testing and features being added. There is also some planning in what seems to be a modular design approach, which should make the development more accessible. So it is clear that the process is flexible. While there is a kind of circular development model, with numerous bug fixes and quality of life checks as more features were being added, there seems to be no particular concern with risk management, thus it is probably not following Boehm’s Spiral Model. What we do have is successive software versions being released and tested, leading to redefined objectives, which corresponds to an Incremental Delivery approach.
+From our analysis it is not entirely clear whether this project has truly adopted a software process model. One thing we are completely sure of is that it does not follow the Waterfall Model, because there is a constant roll back between design, testing and features being added. 
+
+There is some planning in what seems to be a modular design approach, which should make the development more accessible. So it is clear that the process is flexible. While there is a kind of circular development model, with numerous bug fixes and quality of life checks as more features were being added, there seems to be no particular concern with risk management, thus it is probably not following Boehm’s Spiral Model.
+
+That said, there are successive software versions being released and tested, sometimes leading to redefined objectives, others simply enabling the developers to advance to the issues they wish to tackle next. All of this corresponds to an Incremental Delivery approach, which is why that is our main bet for the software process chosen for Pencil2D.
 
 ## Bibliography
 
 1. Github, "pencil2d/pencil". [Online].
-Last access on 4/10/2015 at: https://github.com/pencil2d/pencil
+Last access on 4/10/2015 at: https://github.com/pencil2d/pencil.
 
-2. Pencil2D, "Pencil2D – opensource animation software" ?. [Online].
-Last access on 4/10/2015 at:  http://www.pencil2d.org/
+2. Pencil2D, "Pencil2D – opensource animation software". [Online].
+Last access on 4/10/2015 at:  http://www.pencil2d.org/.
 
 3. Wikipedia, “Software development process”  10:05, 30 September 2015. [Online].
-Last access on 3/10/2015 at: http://en.wikipedia.org/wiki/Travelling_salesman_problem
+Last access on 3/10/2015 at: https://en.wikipedia.org/wiki/Software_development_process.
 
-4. FEUP - MIEIC - ENGENHARIA DE SOFTWARE – 2015/16,"SOFTWARE PROCESSES". [Online].
-Last access on 3/10/2015 at: http://moodle.up.pt/pluginfile.php/61587/mod_resource/content/3/Software%20Processes.pdf
+4. FEUP - MIEIC - Engenharia de Software – 2015/2016, "Software Processes". [Online].
+Last access on 3/10/2015 at: http://moodle.up.pt/pluginfile.php/61587/mod_resource/content/3/Software%20Processes.pdf.
 
-5. Sommerville Ian, Software Engineering 9th Edition (missing stuff)
+5. Ian Sommerville, Software Engineering, 9th Edition, Pearson, 2011.
