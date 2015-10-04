@@ -169,7 +169,7 @@ In any case, even though one can assume there are no cost and time pressures, a 
 
 ## Conclusion
 
-We contacted the main contributor of this project, but unfortunately he did not reply to our email (it might have fallen on his spam pit). So we don’t have his own overview on his project. That said we will never know anything else besides our own opinion on this topic, so it’s up to us to give our final thoughts in all of this. Since information related to the project is quite spread, not knowing specifics about the original pencil project state and not being able to clarify anything with the main contributor, our opinion maybe be a bit blunt. Before asserting our conclusion, we expose a summarized state of the current project.
+We contacted the main contributor of this project, but unfortunately he did not reply to our email (it might have fallen on his spam pit). So we don’t have his own overview on his project. That said we will never know anything else besides our own opinion on this topic, so it’s up to us to give our final thoughts in all of this. Since information related to the project is quite spread, not knowing specifics about the original pencil project state and not being able to clarify anything with the main contributor, our opinion may be a bit blunt. Before asserting our conclusion, we expose a summarized state of the current project.
 
 1. This project is the salvaged remains of an older project named Pencil.
 2. Its developing team is not diverse neither numerous, just a few contributors and most of them don’t even add features, but just code restructuring.
