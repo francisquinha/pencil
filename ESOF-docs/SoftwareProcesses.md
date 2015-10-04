@@ -86,7 +86,7 @@ All software processes are characterized by similar activities, although the way
 
 The objective of software specification is to determine the requirements of the software. The client should let the development team know how the software will be used, by whom, to which effect and under what circumstances. It is very important to decide what the software is supposed to do with precision, because everything else will follow from this stage. 
 
-A part from the user requirements, system requirements, which are more detailed and oriented for the software developers, also should be determined in the phase. This whole part of the process can be split in four activities:
+A part from the user requirements, system requirements, which are more detailed and oriented for the software developers, also should be determined in this phase. This whole part of the process can be split in four activities:
 
 1. Feasibility Study - A quick analysis to decide whether the project is possible and cost-effective, whose result should inform if further analysis should be mande;  
 2. Requirement Elicitation - The system requirements are obtained from the discussion with potential users and the observation of other systems;
@@ -206,3 +206,11 @@ Last access on 3/10/2015 at: https://en.wikipedia.org/wiki/Software_development_
 Last access on 3/10/2015 at: http://moodle.up.pt/pluginfile.php/61587/mod_resource/content/3/Software%20Processes.pdf.
 
 5. Ian Sommerville, Software Engineering, 9th Edition, Pearson, 2011.
+
+## Authors
+
+[Ângela Cardoso](mailto:angela.cardoso@fc.up.pt)
+
+[Bruno Madeira](mailto:up201306619@fe.up.pt)
+
+[José Teixeira](mailto:up201303930@fe.up.pt)
