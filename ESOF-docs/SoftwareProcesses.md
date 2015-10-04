@@ -8,7 +8,7 @@ In any software development process there are different roles performed by the p
 
 ### Client
 
-In general, the role of the client is performed by a representative of the organization that requested the software. Sometimes, the person performing this role is not from the client company, but from the development company. In any case, its the job of this person to guarantee that the software requirements are met, as well as generally speak for the client company.
+In general, the role of client is performed by a representative of the organization that requested the software. Sometimes, the person performing this role is not from the client company, but from the development company. In any case, its the job of this person to guarantee that the software requirements are met, as well as generally speak for the client company.
 
 Pencil2D does not have a client company. Not in the strict sense at least. The software is simply being developed for anyone who might have an interest in its features. Although "random" people on the internet do make feature requests, these people do not have a representative that coordinates their efforts. Also, since they are not paying for anything, there is a clear limit to how much pressure they can place on the development team. Thus, the role of the client is somewhat performed by whomever decides to use the application and comment on it, but with many restrictions in their power to really influence the development process.
 
