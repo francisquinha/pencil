@@ -161,7 +161,7 @@ Also, as evidenced by the image below, whether the coding is done by the main de
 	<img src= merges.bmp height=540>
 </div>
 
-In addition to this, there are clear objectives for each increment, both in terms of bug fixes and of new features or enhancements. In addition to maintaining a large list of all that needs to be done, the most needed tasks are isolated to be included in each successive release.
+In addition to this, there are clear objectives for each increment, both in terms of bug fixes and of new features or enhancements. There is a large list of all that needs to be done and the most needed tasks are isolated to be included in each successive release.
 
 If there was a larger development team, or simply if each developer could spend more time with the project, instead of it being a kind of pass time activity, perhaps some Agile Methods could work really well. They would provide the much needed schedule to the project, with each increment being released faster. As it is, the project seems to evolve very slowly with virtually no concerns for time or cost effectiveness. Which is more so true in a situation where any cost evaluation is somewhat subjective, since nobody seems to be paid for their work and all the technology is free to use.
 
