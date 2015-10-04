@@ -22,7 +22,7 @@ This constant evolution in software specification is why some older software mod
 	<img src=waterfall.jpg height=400>
 </div>
 
-Due to the failing of the Waterfall Model, with delays becoming a constant in software development, more adaptive software process models have emerged. One of these models is Incremental Development, in which the activities are interleaved, in order to develop each successive version of the software. In this approach, each increment adds some functionalities to the software, usually the more urgent ones, making these features available throughout the development, instead of doing it in bulk near the end of the development process.
+Due to the failing of the Waterfall Model, with delays becoming a constant in software development, more adaptive software process models have emerged. One of these models is Incremental Delivery, in which the activities are interleaved, in order to develop each successive version of the software. In this approach, each increment adds some functionalities to the software, usually the more urgent ones, making these features available throughout the development, instead of doing it in bulk near the end of the development process.
 
 A kind of Incremental Delivery software process that is mainly oriented at risk management is the Spiral Model proposed by Boehm in 1988, that is illustrated in the following image.
 
@@ -99,7 +99,7 @@ This is the stage where the software is actually built in order to match the sys
 
 The design is a description of the structure of the software, its interfaces and sometimes the algorithms that will be used. The different components of the software should be identified and described, as well as their organization as a whole. The interfaces between different components and between the software and the user also need to be detailed.
 
-The image bellow contains a diagram for the implementation of Pencil2D gives some indication of its design process. Accompanying it there is a description of the ideas the main developer has regarding the organization and the role of the several components of the software as he wishes them to be. Although these designes could be better organize, they do show some concern with this stage of the development process.
+The image below contains a diagram for the implementation of Pencil2D gives some indication of its design process. Accompanying it there is a description of the ideas the main developer has regarding the organization and the role of the several components of the software as he wishes them to be. Although these designes could be better organize, they do show some concern with this stage of the development process.
 
 <div align="center">
 	<img src= roadmap.jpeg height=400>
@@ -107,14 +107,7 @@ The image bellow contains a diagram for the implementation of Pencil2D gives som
 
 From the software design, the implementation should come naturally. Along with programming the software, some programmers also perform some tests on it, in order to check that their code is doing what is intended. Has in a previous chapter, in Pencil2D the development is mainly done by a single person. But there are other programmers who occasionally contribute, some more than others.
 
-As evidenced by the image bellow, whether the coding is done by the main developer or by someone else, there seems to be a concern to isolate each small increment in its own development fork. This shows a well organized programming process, that is specially helpful if several people are working together or if a single developer wants to dedicate himself to different parts of the software simultaneously.
-
-<div align="center">
-	<img src= merges.bmp height=540>
-</div>
-
-
-The implementation that is being done in Pencil2D is one of the main evidences to the use of a sort of incremental delivery software process. There are nightly builds and beta releases and the software requirements are updated throughout the development. There is also some mild evidence of agile methods, with some circular software processes. However, this is not very well accomplished, because there are hardly any established timeframes. For example, currently there are two open and no closed milestones. But the open milestones have no due date. We will discuss this in further detail in a following chapter.
+The implementation that is being done in Pencil2D is one of the main evidences to the use of a sort of Incremental Delivery software process. There are nightly builds and beta releases and the software requirements are updated throughout the development. There is also some mild evidence of agile methods, with some circular software processes. However, this is not very well accomplished, because there are hardly any established timeframes. For example, currently there are two open and no closed milestones. But the open milestones have no due date. We will discuss this in further detail in a following chapter.
 
 ### Validation
 
@@ -154,7 +147,25 @@ Putting our critical thinking on matters of development processes we tried to id
 
 ## Incremental Delivery
 
-...todo...
+In an Incremental Delivery software development process, as the name suggests, successive versions (or increments) of the software are delivered to the customer and used in their final environment. In order to achieve this, the requirements are divided into categories according to their urgency. This way, in each new delivery stage the prioritized specifications are implemented and deployed for use. The following image illustrates this development process, that after some initial stages becomes circular.
+
+<div align="center">
+	<img src= incremental.png height=260>
+</div>
+
+As we have already seen above, Pencil2D shows several signs of this kind of approach. The main one being the preoccupation with releasing successive versions of the software for public use. This goes even further than each beta increment, with nightly builds also available for the more adventurous user to tinker with the new features or obtain faster bug fixes.
+
+Also, as evidenced by the image below, whether the coding is done by the main developer or by someone else, there seems to be a concern to isolate each small increment in its own development fork. This shows a well organized programming process, that is specially helpful if several people are working together or if a single developer wants to dedicate himself to different parts of the software simultaneously.
+
+<div align="center">
+	<img src= merges.bmp height=540>
+</div>
+
+In addition to this, there are clear objectives for each increment, both in terms of bug fixes and of new features or enhancements. In addition to maintaining a large list of all that needs to be done, the most needed tasks are isolated to be included in each successive release.
+
+If there was a larger development team, or simply if each developer could spend more time with the project, instead of it being a kind of pass time activity, perhaps some Agile Methods could work really well. They would provide the much needed schedule to the project, with each increment being released faster. As it is, the project seems to evolve very slowly with virtually no concerns for time or cost effectiveness. Which is more so true in a situation where any cost evaluation is somewhat subjective, since nobody seems to be paid for their work and all the technology is free to use.
+
+In any case, even though one can assume there are no cost and time pressures, a software process is still useful in ensuring that the scope is achieved with quality and with minimal wastes. For this particular project, Incremental Delivery seems to be a very good choice, because it allows the use of the application as it is being developed, thus maintaining user interest.
 
 ## Conclusion
 
