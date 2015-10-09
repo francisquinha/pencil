@@ -42,14 +42,16 @@ Pencil2D, the project, started from one of these intersections by picking up a e
  ###Pencil Requirements/Specifications
 
 There is some documentation on [requirements that dates from the original pencil project on the pencil2d website](http://www.pencil2d.org/2010/06/the-vision-for-pencil-by-pascal-naidon/).
-The documentation tries to give a direction to the project, according to the original developer believe "that 
-an application like Pencil should be designed with some personal vision and goal to remain effective.
- I hope other developers will share my vision and join this effort, and that Pencil will become useful for most people interested in animation".
- From it we see that there was no entity besides main developers working on pencil at the time that functions as stakeholder, and since the project is being continued
- by new developers we can take this documentation as being the current Pencil2d's first requirement elicitation. 
- Being done by the main developers the technical software specifications requirements may have been easier due too the understanding of the topics
+<br>The documentation clarifies the motives and aspirations behind Pencil and tries to establish future direction to the project, according to the original developer believe "that 
+an application like Pencil should be designed with some personal vision and goal to remain effective".
+<br>From it we see that there was no entity besides main developers working on pencil at the time that functions as stakeholder, and since the project is being continued
+ by new developers we can take this documentation as being the current Pencil2d's first requirement elicitation that establishes the initial objectives.
+
+The exposed requirements are mainly user and system related. The project already presumes the use of c++ in the development since it is using the Qt framework
+ and software requirements are not the main focus although they are briefly touched.
+<br>Being done by the main developers some "technical" requirements related to the application functionality may have been easier to assert due too the understanding of the topics
  and the already established project vision. The clarity of these specifications seems to confirm this. 
- In regards to internal quality requirements it's referred modular design in future development (future at the time of the documentation) of
+<br>In regards to internal quality and software requirements it's referred modular design in future development (future at the time of the documentation) of
  Pencil to allow the implementation of secondary usages but it doesn't expand much beyond that. There are presented some "paper" prototypes of 
  these modules and how they should appear to the user and then some considerations about their integration (or not) into a main application but nothing stays explicitly defined or planned. 
 
@@ -95,17 +97,17 @@ The dynamic nature of the development, like the change of main developers in the
 1. Github, "pencil2d/pencil". [Online].
 Last access on X/10/2015 at: https://github.com/pencil2d/pencil.
 
-2. Pencil2D, "Pencil2D – opensource animation software". [Online].
+2. Pencil2D, "Pencil2D � opensource animation software". [Online].
 Last access on X/10/2015 at:  http://www.pencil2d.org/.
 
-3.FEUP - MIEIC - Engenharia de Software – 2015/2016, "ESOF-Requirements Engineering". [Online]. Last access on 3/10/2015 at: (missing stuff)
+3.FEUP - MIEIC - Engenharia de Software � 2015/2016, "ESOF-Requirements Engineering". [Online]. Last access on 3/10/2015 at: (missing stuff)
 
 ...
 
 ## Authors
 
-[Ângela Cardoso](mailto:angela.cardoso@fc.up.pt)
+[�ngela Cardoso](mailto:angela.cardoso@fc.up.pt)
 
 [Bruno Madeira](mailto:up201306619@fe.up.pt)
 
-[José Teixeira](mailto:up201303930@fe.up.pt)
+[Jos� Teixeira](mailto:up201303930@fe.up.pt)
