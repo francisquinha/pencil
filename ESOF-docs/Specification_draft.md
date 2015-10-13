@@ -45,14 +45,14 @@ There is some documentation on [requirements that dates from the original pencil
 <br>The documentation clarifies the motives and aspirations behind Pencil and tries to establish future direction to the project, according to the original developer believe "that 
 an application like Pencil should be designed with some personal vision and goal to remain effective".
 <br>From it we see that there was no entity besides main developers working on pencil at the time that functions as stakeholder, and since the project is being continued
- by new developers we can take this documentation as being the current Pencil2d's first requirement elicitation that establishes the initial objectives.
+ by new developers we can take this documentation as being the current Pencil2d's first requirement elicitation that establishes initial goals for the project.
 
 The exposed requirements are mainly user and system related. The project already presumes the use of c++ in the development since it is using the Qt framework
  and software requirements are not the main focus although they are briefly touched.
 <br>Being done by the main developers some "technical" requirements related to the application functionality may have been easier to assert due too the understanding of the topics
- and the already established project vision. The clarity of these specifications seems to confirm this. 
-<br>In regards to internal quality and software requirements it's referred modular design in future development (future at the time of the documentation) of
- Pencil to allow the implementation of secondary usages but it doesn't expand much beyond that. There are presented some "paper" prototypes of 
+ and the already established project vision. The clarity of these specifications seems to confirm this, it establishes a well-defined set of features for the main application. 
+<br>In regards to non-functional requirements,internal quality and software requirements it's referred modular design in "future development" of
+ Pencil ("future" at the time of the documentation) to allow the implementation of secondary usages but it doesn't expand much beyond that. There are presented some "paper" prototypes of 
  these modules and how they should appear to the user and then some considerations about their integration (or not) into a main application but nothing stays explicitly defined or planned. 
 
 ... add image of prototype and rearrange text a bit
