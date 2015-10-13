@@ -1,17 +1,24 @@
-# Specification in Pencil2D
+# Software Requirements Specification in Pencil2D
 
 ## Introduction
 
-Remitting to the first document created under the ESOF scope, 'Software Processes', the 'Specifications' topic has already been briefly touched. An [important reference](http://www.pencil2d.org/2010/06/the-vision-for-pencil-by-pascal-naidon/) to the project specification was also given then. The present document aims to dive further into the details on this subject.
+The software requirements specification should be done at the beginning of any software development. Its purpose is to document the purpose of the software and to describe how it will interact with the users, the system and other applications. Thus, even if the requirements are updated throughout the development, which these days is quite common, it is important to have a firm grasp on what they are before progressing to other stages, in order to avoid misunderstandings between clients and developers.
 
-The software requirements specification should be done at the beginning of any software development. Its purpose is to determine the purpose of the software and to describe how it will interact with the users, the system and other applications. Many times, a set of use cases, which describe the interaction of the users with the software is a part of the specification document.
+There are two general types of requirements: functional and nonfunctional requirements. The first are the functions that the software should be able to perform, also known as capabilities. The nonfunctional requirements are the ones that impose restrictions on the solution, such as quality or development requirements.
 
-...write about specification in general maybe (?)
-the 1st doc. Specification section already works as a good intro.
-not sure if we need to repeat, so maybe something else could be added instead.
+In order to reach a specification document, one typically progresses along several activities, going from a more general overview to a very detailed description. After a quick analysis aiming to check the feasibility of the software, the first activity is requirement elicitation. At this stage, through interviews, joint application design sessions, questionaries, brainstorming, etc, the requirements are collected from the client. Use cases, which are examples of how the user will interact with the software, should be obtained. At this point, the requirements are very high level.
 
+Once the elicitation process is complete, one should proceed to the analysis, where a more precise understanding of the requirements is achieved. At this point the requirements obtained will be on a lower level. The system requirements are derived from the previous information, as well as the software requirements, by breaking down the system requirements into the different software components. One should check the requirements for completeness, correctness, consistency, unambiguity, verifiability, necessity and feasibility. Besides analyses, this is the stage of requirement negotiation. A debate ensues between the stakeholders, in order to arrive at a list of agreed requirements, usually considering mainly the necessity and the feasibility.
 
-##Origin of Requirements in Pencil2d
+The next stage is specification, where a detailed document containing all requirements is produced. UML diagrams and other artifacts are typically included in this document. There is a standard template for specification documents that should be followed as closely as possible.
+
+Finally, one can proceed to requirement validation, with the goal of guaranteeing that the requirements define the system according to the real objective of the client. This is very important as fixing a requirement error at this stage costs considerably less than doing so after product delivery.
+
+To aid in requirement collection, prototypes are used. These are primitive versions of the system, maybe even done in paper, designed to determine what the system will look like and what it will do, offering some limited capabilities. These prototypes may be done through the whole development, but a first vertical system prototype is usually done in the beginning.
+
+Remitting to the first document created under the ESOF scope, 'Software Processes', this topic has already been briefly touched. An [important reference](http://www.pencil2d.org/2010/06/the-vision-for-pencil-by-pascal-naidon/) to the project specification for Pencil2D was also given then. The present document aims to dive further into the details on this subject.
+
+## Origin of Requirements in Pencil2d
 
 One of the main figures of the original pencil project states that this is a personal
  non-profit oriented project that is open for other people to develop and use. This creates a sort of 
