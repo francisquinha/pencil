@@ -6,13 +6,13 @@ The software requirements specification should be done at the beginning of any s
 
 There are two general types of requirements: functional and nonfunctional requirements. The first are the functions that the software should be able to perform, also known as capabilities. The nonfunctional requirements are the ones that impose restrictions on the solution, such as quality or development requirements.
 
-In order to reach a specification document, one typically progresses along several activities, going from a more general overview to a very detailed description. After a quick analysis aiming to check the feasibility of the software, the first activity is requirement elicitation. At this stage, through interviews, joint application design sessions, questionaries, brainstorming, etc, the requirements are collected from the client. Use cases, which are examples of how the user will interact with the software, should be obtained. At this point, the requirements are very high level.
+In order to reach a specification document, one typically progresses along several activities, going from a more general overview to a very detailed description. After a quick analysis aiming to check the feasibility of the software, the first activity is requirement **elicitation**. At this stage, through interviews, joint application design sessions, questionaries, brainstorming, etc, the requirements are collected from the client. Use cases, which are examples of how the user will interact with the software, should be obtained. At this point, the requirements are very high level.
 
-Once the elicitation process is complete, one should proceed to the analysis, where a more precise understanding of the requirements is achieved. At this point the requirements obtained will be on a lower level. The system requirements are derived from the previous information, as well as the software requirements, by breaking down the system requirements into the different software components. One should check the requirements for completeness, correctness, consistency, unambiguity, verifiability, necessity and feasibility. Besides analyses, this is the stage of requirement negotiation. A debate ensues between the stakeholders, in order to arrive at a list of agreed requirements, usually considering mainly the necessity and the feasibility.
+Once the elicitation process is complete, one should proceed to the **analysis**, where a more precise understanding of the requirements is achieved. At this point the requirements obtained will be on a lower level. The system requirements are derived from the previous information, as well as the software requirements, by breaking down the system requirements into the different software components. One should check the requirements for completeness, correctness, consistency, unambiguity, verifiability, necessity and feasibility. Besides analyses, this is the stage of requirement negotiation. A debate ensues between the stakeholders, in order to arrive at a list of agreed requirements, usually considering mainly the necessity and the feasibility.
 
-The next stage is specification, where a detailed document containing all requirements is produced. UML diagrams and other artifacts are typically included in this document. There is a standard template for specification documents that should be followed as closely as possible.
+The next stage is **specification**, where a detailed document containing all requirements is produced. UML diagrams and other artifacts are typically included in this document. There is a standard template for specification documents that should be followed as closely as possible.
 
-Finally, one can proceed to requirement validation, with the goal of guaranteeing that the requirements define the system according to the real objective of the client. This is very important as fixing a requirement error at this stage costs considerably less than doing so after product delivery.
+Finally, one can proceed to requirement **validation**, with the goal of guaranteeing that the requirements define the system according to the real objective of the client. This is very important as fixing a requirement error at this stage costs considerably less than doing so after product delivery.
 
 To aid in requirement collection, prototypes are used. These are primitive versions of the system, maybe even done in paper, designed to determine what the system will look like and what it will do, offering some limited capabilities. These prototypes may be done through the whole development, but a first vertical system prototype is usually done in the beginning.
 
@@ -20,17 +20,7 @@ Remitting to the first document created under the ESOF scope, 'Software Processe
 
 ## Origin of Requirements in Pencil2d
 
-One of the main figures of the original pencil project states that this is a personal
- non-profit oriented project that is open for other people to develop and use. This creates a sort of 
- duality in the analysis because we can access the pencil2d requirements from
- different perspectives.
- It's possible to think of "pencil2d", referring to the overall software ramifications like
- forks like bluepencil and not to the actual project, as a software which specification arises
- from the intersections between public demands and developers self set goals.
- It is also possible to think of "pencil2d" in the context of it's origins or individually or
- in context of the public demand for such a application.
- We will try to approach the "main branch perspective" where we can consider the initial stated requirements (original pencil)
- and it's new iteration (current pencil2d) requirements according to the public contribution.
+One of the main figures of the original pencil project states that this is a personal non-profit oriented project that is open for other people to develop and use. This creates a sort of  duality in the analysis because we can access the pencil2d requirements from different perspectives. It's possible to think of "pencil2d", referring to the overall software ramifications like forks like bluepencil and not to the actual project, as a software which specification arises from the intersections between public demands and developers self set goals. It is also possible to think of "pencil2d" in the context of it's origins or individually or in context of the public demand for such a application. We will try to approach the "main branch perspective" where we can consider the initial stated requirements (original pencil) and it's new iteration (current pencil2d) requirements according to the public contribution.
  
  ...maybe some image
  
@@ -60,7 +50,7 @@ The exposed requirements are mainly user and system related. The project already
   
   
  
- ###Pencil2d Requirements/Specifications
+###Pencil2d Requirements/Specifications
  
 improving quality and stucture of the old code ...
 
