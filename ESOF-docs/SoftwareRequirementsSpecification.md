@@ -45,7 +45,7 @@ The exposed requirements are mainly user and system related. The project already
  these modules and how they should appear to the user and then some considerations about their integration (or not) into a main application but nothing stays explicitly defined or planned. 
 
  <div align="center">
-	<img src= pascal-vision-d-008.jpg height=400>
+	<img src= pascal-vision-d-008.jpg height=200>
 </div>
   
 ###Pencil2d Requirements/Specifications
