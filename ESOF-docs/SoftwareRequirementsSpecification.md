@@ -43,7 +43,8 @@ The exposed requirements are mainly user and system related. The project already
 <br>In regards to non-functional requirements,internal quality and software requirements it's referred modular design in "future development" of
  Pencil ("future" at the time of the documentation) to allow the implementation of secondary usages but it doesn't expand much beyond that. There are presented some "paper" prototypes of 
  these modules and how they should appear to the user and then some considerations about their integration (or not) into a main application but nothing stays explicitly defined or planned. 
-<br>The following image is one example of the mentioned "paper" prototypes.
+
+The following image is one example of the mentioned "paper" prototypes.
  
  <div align="center">
 	<img src= pascal-vision-d-008.jpg height=200>
@@ -69,8 +70,8 @@ As it was already mentioned before there isn't a clear
  One can only get an hint from the [TODO list] (https://github.com/pencil2d/pencil/blob/master/TODO.md)
  and the [Issues tracker] (https://github.com/pencil2d/pencil/issues).
 
-This is an open-source project even though its creator didn't want to shape it in another person's vision,
-it does not exclude the fact that it's not open for new ideas that might come up.
+This is an open-source project, even though its creator didn't want to shape it in another person's vision
+ it does not exclude the fact that it's open for new ideas that might come up.
 <br>From the time this report is being written, there has been requests for new features so the requirement elicitation
 tends to be a bit chaotic, in the way that in the middle of its development there might appear some pertinent opinions
 whether a particular feature should be added. The process of requirement identification and analysis/negotiation is handled
