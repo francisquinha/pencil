@@ -60,8 +60,8 @@ So from the day (19th January of 2013) the article we
 are building our opinion we, can clarify some of this project
 requirements:
 
-1- Being able to distribute Pencil2D for all operative systems.
-2- Bug fixes and general code improvement.
+1. Being able to distribute Pencil2D for all operative systems.
+2. Bug fixes and general code improvement.
 
 As it was already mentioned before there isn't a clear neither concrete
 idea on what particular feature it's being planned to be added.
