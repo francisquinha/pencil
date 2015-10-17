@@ -82,7 +82,8 @@ We take the example from a [request issued in the 19th of February of 2015] (htt
 >I'd like to know if there could be an option to export our creations to the WebM format, for its slim form and relative lack of patent encumbrance.
 >It'll make for easy uploading to sites like Youtube.
 >Alternatively, if it'd be possible to upload our cartoons directly to Youtube, that'd be just as good.
-<br>This is a good example when an user wants the developers to add a new important feature to increase Pencil2D's versatility, nevertheless
+
+This is a good example when an user wants the developers to add a new important feature to increase Pencil2D's versatility, nevertheless
 there are still plenty of bugs from the date that this request has been issued it is a very good example of the software requirement life-cycle.
  
 ##Use Cases Diagram
@@ -132,7 +133,7 @@ Last access on X/10/2015 at: https://github.com/pencil2d/pencil.
 2. Pencil2D, "Pencil2D - opensource animation software". [Online].
 Last access on X/10/2015 at:  http://www.pencil2d.org/.
 
-3. FEUP - MIEIC - Engenharia de Software - 2015/2016, "ESOF-Requirements Engineering". [Online]. Last access on 3/10/2015 at: (missing stuff)
+3. FEUP - MIEIC - Engenharia de Software - 2015/2016, "REQUIREMENTS ENGINEERING & PROTOTYPING". [Online]. Last access on 3/10/2015 at: http://moodle.up.pt/pluginfile.php/68505/mod_resource/content/2/ESOF-Requirements%20Engineering.pdf.
 
 ...
 
