@@ -22,11 +22,9 @@ Remitting to the first document created under the ESOF scope, 'Software Processe
 
 One of the main figures of the original pencil project states that this is a personal non-profit oriented project that is open for other people to develop and use. This creates a sort of  duality in the analysis because we can access the pencil2d requirements from different perspectives. It's possible to think of "pencil2d", referring to the overall software ramifications like forks like bluepencil and not to the actual project, as a software which specification arises from the intersections between public demands and developers self set goals. It is also possible to think of "pencil2d" in the context of it's origins or individually or in context of the public demand for such an application. We will try to approach the "main branch perspective" where we can consider the initial stated requirements (original pencil) and it's new iteration (current pencil2d) requirements according to the public contribution.
  
- ...maybe some image
- 
 Pencil2D, the project, started from one of these intersections by picking up a existing project, pencil, and giving it continuity.
  After that, specifications may have been refined and slightly changed by the public contribution and feedback. It's possible 
- that some requirements are only specified in some branch/fork and after a merge the main
+ that some requirements are only specified in some branch/fork and, after a merge, the main
  project assimilates the result without having to make "side" specifications.
  
  
@@ -46,7 +44,9 @@ The exposed requirements are mainly user and system related. The project already
  Pencil ("future" at the time of the documentation) to allow the implementation of secondary usages but it doesn't expand much beyond that. There are presented some "paper" prototypes of 
  these modules and how they should appear to the user and then some considerations about their integration (or not) into a main application but nothing stays explicitly defined or planned. 
 
-... add image of prototype and rearrange text a bit
+ <div align="center">
+	<img src= pascal-vision-d-008.jpg height=400>
+</div>
   
 ###Pencil2d Requirements/Specifications
  
@@ -63,8 +63,10 @@ requirements:
 1. Being able to distribute Pencil2D for all operative systems.
 2. Bug fixes and general code improvement.
 
-As it was already mentioned before there isn't a clear neither concrete
-idea on what particular feature it's being planned to be added.
+As it was already mentioned before there isn't a clear
+ idea on what particular feature it's being planned to be added.
+ One can only get an hint from the [TODO list] (https://github.com/pencil2d/pencil/blob/master/TODO.md)
+ and the [Issues tracker] (https://github.com/pencil2d/pencil/issues).
 
 This is an open-source project even though its creator didn't want to shape it in another person's vision,
 it does not exclude the fact that it's not open for new ideas that might come up.
@@ -94,15 +96,15 @@ The following image presents a possible use cases diagram that could have been d
 	<img src= PossivelDiagramaDeCasosDeUtilizacaoParaOestadoActualPrint.png height=500>
 </div>
 
-The presented diagram is somewhat detailed. Because of details, like "onion skin" which is a display option more relevant than others
- because of it's practical utility, we could still branch the presented graph a little more but overall
- it displays a very accurate representation of the use cases. 
+The presented diagram is somewhat detailed and due to some more specific features like the "onion skin" for example (which is a display option more relevant than others
+ because of it's practical utility) we could still branch the presented graph a little more. Overall, it displays a very accurate representation of the use cases without
+ being over detailed. 
 <br>Looking at the original specifications there are some minor details that could appear differently in the diagram. The original
  specification suggest using 4 sub layers per layer or allowing to define hierarchies and groups of Layers. This, in a detailed view,
  changes the diagram by allowing extra actions that would need to be specified later in an Activity Diagram when addressing the Software Architecture.
  There are also some additional details regarding sound and media resources. 
-<br>The project may still incorporate some of these features in the future, but since we don't know the current plans for the project
- we don't present these features in he diagram. Overall, the presented diagram, remains faithful to the original requirements which means
+<br>The project may still incorporate some of these features in the future, but since we can't know for sure if there are plans for them in the project
+ we don't present these features in the diagram. Overall, the presented diagram, remains faithful to the original requirements which means
  that Pencil2D has not strayed from the original Pencil's vision and goals.
  
  
