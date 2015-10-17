@@ -83,17 +83,17 @@ We take the example from a [request issued in the 19th of February of 2015] (htt
 >It'll make for easy uploading to sites like Youtube.
 >Alternatively, if it'd be possible to upload our cartoons directly to Youtube, that'd be just as good.
 <br>This is a good example when an user wants the developers to add a new important feature to increase Pencil2D's versatility, nevertheless
-there are still plenty of bugs from the date that this request has been issued it is a very good example of the software requirement lifecycle.
+there are still plenty of bugs from the date that this request has been issued it is a very good example of the software requirement life-cycle.
  
 ##Use Cases Diagram
 
-The following image presents a possible user case diagram that could have been done as specification for the current Pencil2D.
+The following image presents a possible use cases diagram that could have been done as specification for the current Pencil2D.
 
 <div align="center">
 	<img src= PossivelDiagramaDeCasosDeUtilizacaoParaOestadoActualPrint.png height=500>
 </div>
 
-The presented diagram is somewhat detailed. Because of details, like onionskyn which is a display option more relevant than others
+The presented diagram is somewhat detailed. Because of details, like "onion skin" which is a display option more relevant than others
  because of it's practical utility, we could still branch the presented graph a little more but overall
  it displays a very accurate representation of the use cases. 
 <br>Looking at the original specifications there are some minor details that could appear differently in the diagram. The original
