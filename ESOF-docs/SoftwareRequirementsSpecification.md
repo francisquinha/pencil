@@ -43,7 +43,8 @@ The exposed requirements are mainly user and system related. The project already
 <br>In regards to non-functional requirements,internal quality and software requirements it's referred modular design in "future development" of
  Pencil ("future" at the time of the documentation) to allow the implementation of secondary usages but it doesn't expand much beyond that. There are presented some "paper" prototypes of 
  these modules and how they should appear to the user and then some considerations about their integration (or not) into a main application but nothing stays explicitly defined or planned. 
-
+<br>The following image is one example of the mentioned "paper" prototypes.
+ 
  <div align="center">
 	<img src= pascal-vision-d-008.jpg height=200>
 </div>
