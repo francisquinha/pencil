@@ -123,7 +123,7 @@ It appears that the requirements in Pencil2D were treated in a very informal man
  specially so when it is an open-source project that can have a long development time.
  It is plausible that the current Pencil2D works as a solution to the lack of these requirements since it mentions improving the code  as one of the goals.
 <br>Since the initial Pencil the requirements evolved to focus on making the current Pencil2d more stable and complete.
- Not forsaking the originals Pencil's plans, they have changed the work scope but not the main goals established for he final Application.
+ Not forsaking the originals Pencil's plans, they have changed the work scope but not the main goals established for the final Application.
  
 ## Bibliography
 
