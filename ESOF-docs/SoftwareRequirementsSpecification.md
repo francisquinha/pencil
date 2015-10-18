@@ -16,13 +16,13 @@ Finally, one can proceed to requirement **validation**, with the goal of guarant
 
 To aid in requirement collection, prototypes are used. These are primitive versions of the system, maybe even done in paper, designed to determine what the system will look like and what it will do, offering some limited capabilities. These prototypes may be done through the whole development, but a first vertical system prototype is usually done in the beginning.
 
-Remitting to the first document created under the ESOF scope, 'Software Processes', this topic has already been briefly touched. An [important reference](http://www.pencil2d.org/2010/06/the-vision-for-pencil-by-pascal-naidon/) to the project specification for Pencil2D was also given then. The present document aims to dive further into the details on this subject.
+Remitting to the first document created under the ESOF scope, 'Software Processes', this topic has already been briefly touched. An [important reference](http://www.Pencil2d.org/2010/06/the-vision-for-Pencil-by-pascal-naidon/) to the project specification for Pencil2D was also given then. The present document aims to dive further into the details on this subject.
 
 ##Requirements in Pencil2d
 
-One of the main figures of the original pencil project states that this is a personal non-profit oriented project that is open for other people to develop and use. This creates a sort of  duality in the analysis because we can access the pencil2d requirements from different perspectives. It's possible to think of "pencil2d", referring to the overall software ramifications like forks like bluepencil and not to the actual project, as a software which specification arises from the intersections between public demands and developers self set goals. It is also possible to think of "pencil2d" in the context of it's origins or individually or in context of the public demand for such an application. We will try to approach the "main branch perspective" where we can consider the initial stated requirements (original pencil) and it's new iteration (current pencil2d) requirements according to the public contribution.
+One of the main figures of the original Pencil project states that this is a personal non-profit oriented project that is open for other people to develop and use. This creates a sort of  duality in the analysis because we can access the Pencil2d requirements from different perspectives. It's possible to think of "Pencil2d", referring to the overall software ramifications like forks like bluePencil and not to the actual project, as a software which specification arises from the intersections between public demands and developers self set goals. It is also possible to think of "Pencil2d" in the context of it's origins or individually or in context of the public demand for such an application. We will try to approach the "main branch perspective" where we can consider the initial stated requirements (original Pencil) and it's new iteration (current Pencil2d) requirements according to the public contribution.
  
-Pencil2D, the project, started from one of these intersections by picking up a existing project, pencil, and giving it continuity.
+Pencil2D, the project, started from one of these intersections by picking up a existing project, Pencil, and giving it continuity.
  After that, specifications may have been refined and slightly changed by the public contribution and feedback. It's possible 
  that some requirements are only specified in some branch/fork and, after a merge, the main
  project assimilates the result without having to make "side" specifications.
@@ -30,10 +30,10 @@ Pencil2D, the project, started from one of these intersections by picking up a e
  
 ###Original Pencil Requirements/Specifications
 
-There is some documentation on [requirements that dates from the original pencil project on the pencil2d website](http://www.pencil2d.org/2010/06/the-vision-for-pencil-by-pascal-naidon/).
+There is some documentation on [requirements that dates from the original Pencil project on the Pencil2d website](http://www.Pencil2d.org/2010/06/the-vision-for-Pencil-by-pascal-naidon/).
 <br>The documentation clarifies the motives and aspirations behind Pencil and tries to establish future direction to the project, according to the original developer believe "that 
 an application like Pencil should be designed with some personal vision and goal to remain effective".
-<br>From it we see that there was no entity besides main developers working on pencil at the time that functions as stakeholder, and since the project is being continued
+<br>From it we see that there was no entity besides main developers working on Pencil at the time that functions as stakeholder, and since the project is being continued
  by new developers we can take this documentation as being the current Pencil2d's first requirement elicitation that establishes initial goals for the project.
 
 The exposed requirements are mainly user and system related. The project already presumes the use of c++ in the development since it is using the Qt framework
@@ -67,8 +67,8 @@ requirements:
 
 As it was already mentioned before there isn't a clear
  idea on what particular feature it's being planned to be added.
- One can only get an hint from the [TODO list] (https://github.com/pencil2d/pencil/blob/master/TODO.md)
- and the [Issues tracker] (https://github.com/pencil2d/pencil/issues).
+ One can only get an hint from the [TODO list] (https://github.com/Pencil2d/Pencil/blob/master/TODO.md)
+ and the [Issues tracker] (https://github.com/Pencil2d/Pencil/issues).
 
 This is an open-source project, even though its creator didn't want to shape it in another person's vision
  it does not exclude the fact that it's open for new ideas that might come up.
@@ -78,7 +78,7 @@ whether a particular feature should be added. The process of requirement identif
 at the same time via github's issue tracker when diverse entities(mostly individual users) submit a report on whether
 new feature would be feasible to be added.
 
-We take the example from a [request issued in the 19th of February of 2015] (https://github.com/pencil2d/pencil/issues/288):
+We take the example from a [request issued in the 19th of February of 2015] (https://github.com/Pencil2d/Pencil/issues/288):
 >Hey there. I've enjoyed using Pencil on my Linux systems and am elated to know that development is continuing on a fork of it.
 
 >https://www.youtube.com/watch?v=xU4nQuRw-e4
@@ -127,11 +127,11 @@ It appears that the requirements in Pencil2D were treated in a very informal man
  
 ## Bibliography
 
-1. Github, "pencil2d/pencil". [Online].
-Last access on 18/10/2015 at: https://github.com/pencil2d/pencil.
+1. Github, "Pencil2d/Pencil". [Online].
+Last access on 18/10/2015 at: https://github.com/Pencil2d/Pencil.
 
 2. Pencil2D, "Pencil2D - opensource animation software". [Online].
-Last access on 18/10/2015 at:  http://www.pencil2d.org/.
+Last access on 18/10/2015 at:  http://www.Pencil2d.org/.
 
 3. FEUP - MIEIC - Engenharia de Software - 2015/2016, "REQUIREMENTS ENGINEERING & PROTOTYPING". [Online]. Last access on 3/10/2015 at: http://moodle.up.pt/pluginfile.php/68505/mod_resource/content/2/ESOF-Requirements%20Engineering.pdf.
 
