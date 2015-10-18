@@ -74,7 +74,7 @@ Overall, the presented diagram, remains faithful to the original requirements wh
 
 ## Conclusion
 
-It appears that the requirements in Pencil2D were treated in a very informal manner. User feedback and forum discussions can work as social observation for the need of particular features. They may also help to form a light requirement analysis and/or validation but no formal or consistent procedure seems to exist for these usual steps.
+It appears that the requirements in Pencil2D were treated in a very informal manner. Clearly there is no software specification document, not in the usual sense at least. User feedback and forum discussions can work as social observation for the need of particular features. They may also help to form a light requirement analysis and/or validation but no formal or consistent procedure seems to exist for these usual steps.
 
 Considering the nature of the project it probably would not benefit of a more formal approach. Being a relatively small project, presently developed mainly by one contributor, a formal or strict procedure could waste time needlessly and work against the flexibility that the current methodology has, by forcing the incremental approach to use wider development intervals and consequently reducing the productivity of development.
 
