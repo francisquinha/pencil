@@ -108,38 +108,32 @@ The presented diagram is somewhat detailed and due to some more specific feature
 <br>The project may still incorporate some of these features in the future, but since we can't know for sure if there are plans for them in the project
  we don't present these features in the diagram. Overall, the presented diagram, remains faithful to the original requirements which means
  that Pencil2D has not strayed from the original Pencil's vision and goals.
- 
- 
-## some rand thoughts and links
-
-(??? need a 2nd opinion on these)
-
-The dynamic nature of the development, like the change of main developers in the transition from Pencil to Pencil2d  or the already mentioned in "Software Development.md" incremental development process,
- may introduce a volatility problem . In the context of a long term development of an open-source project it's more questionable whether this just part of the project's nature and
- not necessarily a problem since public feedback from users or other developers is usually present and technology evolves over time.
- 
- The more recent requirements seem more related to fix bugs or "clean" code than changing the original requirements
- (so they appear to be fixing
- something that failed in the development or in the initial requirements.
- conjecture quality requirements
-
 
 ## Conclusion
 
-
-...
-
+It appears that the requirements in Pencil2D were treated in a very informal manner.
+ User feedback and forum discussions can work as social observation for the need of particular features.
+ They may also help to form a light requirement analysis and/or validation but no formal or consistent procedure seems to exist for these usual steps.
+ Considering the nature of the project it probably wouldn't benefit of such an approach. Being a relatively small project, presently developed mainly by one contributor,
+ a formal or strict procedure could waste time needlessly and work against the flexibility that the current methodology has,
+ by forcing the incremental approach to use wider development intervals and consequently reducing the productivity of development.
+<br>From another perspective, the recent phases of development of the project, which consisted mainly in sleuthing bug fixes,
+ may have been avoided with a more formal approach and by establishing well defined quality and/or non-functional requirements in the early days of the project.
+ The requirements in Pencil seem to address only the software architecture, not the feasibility and quality. So topics like the testability of the software are of relevance,
+ specially so when it is an open-source project that can have a long development time.
+ It is plausible that the current Pencil2D works as a solution to the lack of these requirements since it mentions improving the code  as one of the goals.
+<br>Since the initial Pencil the requirements evolved to focus on making the current Pencil2d more stable and complete.
+ Not forsaking the originals Pencil's plans, they have changed the work scope but not the main goals established for he final Application.
+ 
 ## Bibliography
 
 1. Github, "pencil2d/pencil". [Online].
-Last access on X/10/2015 at: https://github.com/pencil2d/pencil.
+Last access on 18/10/2015 at: https://github.com/pencil2d/pencil.
 
 2. Pencil2D, "Pencil2D - opensource animation software". [Online].
-Last access on X/10/2015 at:  http://www.pencil2d.org/.
+Last access on 18/10/2015 at:  http://www.pencil2d.org/.
 
 3. FEUP - MIEIC - Engenharia de Software - 2015/2016, "REQUIREMENTS ENGINEERING & PROTOTYPING". [Online]. Last access on 3/10/2015 at: http://moodle.up.pt/pluginfile.php/68505/mod_resource/content/2/ESOF-Requirements%20Engineering.pdf.
-
-...
 
 ## Authors
 
