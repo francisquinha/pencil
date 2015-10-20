@@ -72,6 +72,15 @@ There are also some additional details regarding sound and media resources. The 
 
 Overall, the presented diagram, remains faithful to the original requirements which means that Pencil2D has not strayed from the original vision and goals of Pencil.
 
+## Component
+
+This project uses external libraries whose main focus is to read from and write to ZIP archives. It is provided by the component QuaZIP, QuaZIP allows the access to files inside ZIP archives using QIODevice API (contained from the Qt Framework).
+The Qt framework provides the graphical interface that is going to support the visualization of the canvas. Basically it is the interface between the user and the software.
+
+<div align="center">
+	<img src= PossivelDiagramaDeCasosDeUtilizacaoParaOestadoActualPrint.png height=500>
+</div>
+
 ## Conclusion
 
 It appears that the requirements in Pencil2D were treated in a very informal manner. Clearly there is no software specification document, not in the usual sense at least. User feedback and forum discussions can work as social observation for the need of particular features. They may also help to form a light requirement analysis and/or validation but no formal or consistent procedure seems to exist for these usual steps.
@@ -81,7 +90,7 @@ Considering the nature of the project it probably would not benefit of a more fo
 From another perspective, the recent phases of development of the project, which consisted mainly in sleuthing bug fixes, may have been avoided or reduced with a more formal approach and by establishing well defined quality and/or non-functional requirements in the early days of the project.
 
 The requirements in Pencil seem to address only the software architecture, not the feasibility and quality. So topics like the testability of the software are of relevance, specially so when it is an open-source project that can have a long development time. It is plausible that the current Pencil2D works as a solution to the lack of these requirements since it mentions improving the code as one of the goals. Since the initial Pencil the requirements evolved to focus on making the current Pencil2D more stable and complete. Not forsaking the plans for the original Pencil, they have changed the work scope but not the main goals established for the final application.
- 
+
 ## Bibliography
 
 1. Github, "Pencil2d/Pencil". [Online].
