@@ -1,9 +1,51 @@
-We contacted the main contributor of this project, but unfortunately he did not reply to our email (it might fell on his spam pit). So we donít have his own overview on his project. That said we will never know anything else besides our own opinion on this topic, so itís up to us to give our final thoughts in all of this.
+We contacted the main contributor of this project, but unfortunately he did not reply to our email (it might fell on his spam pit). So we don‚Äôt have his own overview on his project. That said we will never know anything else besides our own opinion on this topic, so it‚Äôs up to us to give our final thoughts in all of this.
 	
-This project is the salvaged remains of an older project named ìPencilî
-Its developing team is not diverse neither numerous( just a few contributors and most of them donít even add features, but just code restructuring)
-Although many features were already implemented in Pencil2Dís beginning there has been some improvements to the previous features and new features have been added.
+This project is the salvaged remains of an older project named ‚ÄúPencil‚Äù
+Its developing team is not diverse neither numerous( just a few contributors and most of them don‚Äôt even add features, but just code restructuring)
+Although many features were already implemented in Pencil2D‚Äôs beginning there has been some improvements to the previous features and new features have been added.
 There was a peek on its developing around the ending of July and beginning of August around 2013 with various branches from different contributors.
-There arenít any milestone fulfilled, and its requirements are mainly bug fixes.
+There aren‚Äôt any milestone fulfilled, and its requirements are mainly bug fixes.
 
-	From our analysis this project might not even have a software process model. One thing we are completely sure of is that it didnít follow the Waterfall Model because there is a constant roll back between design, testing and feature being added. There is also some planning in what seems to be a ìmodular designî approach which should make the development more flexible and accessable.So itís unanimous that it was a somewhat flexible process. We might risk to say that it followed Boehmís Spiral Model, itís safe to say the development of this process consisted in inumerous bug fixes and quality of life checks as there was being added more features.
+	From our analysis this project might not even have a software process model. One thing we are completely sure of is that it didn‚Äôt follow the Waterfall Model because there is a constant roll back between design, testing and feature being added. There is also some planning in what seems to be a ‚Äúmodular design‚Äù approach which should make the development more flexible and accessable.So it‚Äôs unanimous that it was a somewhat flexible process. We might risk to say that it followed Boehm‚Äôs Spiral Model, it‚Äôs safe to say the development of this process consisted in inumerous bug fixes and quality of life checks as there was being added more features.
+	
+	
+<------------------------------------------------------>
+
+
+	In its primordial development there were already some tools and features implemented,
+although after the rebirth of Pencil being now known as Pencil2D its particular
+focus was to produce working versions for OSX, Windows and Linux, the
+bug fixing and handling the codebase(simplify it). There wasn't a clear idea if it was
+supposed to add new features to the preexisting ones.
+
+So from the day (19th January of 2013) the article we 
+are building our opinion we can clarify some of this project
+requirements:
+
+1- Being able to distribute Pencil2D for all operative systems.
+2- Bug fixes and general code improvement.
+
+As it was already mentioned before there isn't a clear neither concrete
+idea on what particular feature it's being planned to be added.
+
+
+This is an open-source project even though its creator didn't want to shape it in another person's vision,
+it does not exclude the fact that it's not open for new ideas that might come up.
+
+From the time this report is being written, there has been requests for new features so the requirement elicitation
+tends to be a bit chaotic, in the way that in the middle of its development there might appear some pertinent opinions
+whether a particular feature should be added. The process of requirement identification and analysis/negotiation is handled
+at the same time via github's issue tracker when diverse entities(mostly individual users) submit a report on whether
+new feature would be feasible to be added.
+
+We take the example from a request issued in the 19th of February of 2015. https://github.com/pencil2d/pencil/issues/288
+Hey there. I've enjoyed using Pencil on my Linux systems and am elated to know that development is continuing on a fork of it.
+
+https://www.youtube.com/watch?v=xU4nQuRw-e4
+
+I'd like to know if there could be an option to export our creations to the WebM format, for its slim form and relative lack of patent encumbrance.
+It'll make for easy uploading to sites like Youtube.
+Alternatively, if it'd be possible to upload our cartoons directly to Youtube, that'd be just as good.
+
+This is a good example when an user wants the developers to add a new important feature to increase Pencil2D's versatility, nevertheless
+there are still plenty of bugs from the date that this request has been issued it is a very good example of the software requirement lifecycle.
