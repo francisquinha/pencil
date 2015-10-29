@@ -72,15 +72,6 @@ There are also some additional details regarding sound and media resources. The 
 
 Overall, the presented diagram, remains faithful to the original requirements which means that Pencil2D has not strayed from the original vision and goals of Pencil.
 
-## Component
-
-This project uses external libraries whose main focus is to read from and write to ZIP archives. It is provided by the component QuaZIP, QuaZIP allows the access to files inside ZIP archives using QIODevice API (contained from the Qt Framework).
-The Qt framework provides the graphical interface that is going to support the visualization of the canvas. Basically it is the interface between the user and the software.
-
-<div align="center">
-	<img src= PossivelDiagramaDeCasosDeUtilizacaoParaOestadoActualPrint.png height=500>
-</div>
-
 ## Conclusion
 
 It appears that the requirements in Pencil2D were treated in a very informal manner. Clearly there is no software specification document, not in the usual sense at least. User feedback and forum discussions can work as social observation for the need of particular features. They may also help to form a light requirement analysis and/or validation but no formal or consistent procedure seems to exist for these usual steps.
