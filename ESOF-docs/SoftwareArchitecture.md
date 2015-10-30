@@ -31,7 +31,7 @@ Finally, relating these 4 views, there is a **Scenarios** diagram, also known as
 The nearest thing we could find related to the Logical View in Pencil2d was the roadmap diagram.
 
 <div align="center">
-	<img src= roadmap.jpeg height=300>
+	<img src= roadmap.jpeg height=200>
 </div>
 
 The roadmap suggests how key components of the Editor, from a user standpoint, should be connected without being too specific.
@@ -49,12 +49,10 @@ By using Enterprise Architect reverse engineering capabilities we made a simplif
 
 
 <div align="center">
-	<img src= class_diagram.png  height=300>
+	<img src= class_diagram.png  height=400>
 </div>
 <div align="center">
 	<img src= class_diagram_base_tool_closeup.png height=300>
-</div>
-<div align="center">
 	<img src= class_diagram_BitmalNobjectNlayer_closeup.png height=300>
 </div>
 <div align="center">
