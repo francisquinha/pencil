@@ -42,7 +42,7 @@ By using Enterprise Architect reverse engineering capabilities we made a simplif
 <br>Orange - "core classes"
 <br>Green - "core classes" that are Qt related
 <br>Full Arrow - a subclass of pointed class
-<br>Other Arrows - class as a field of pointed class
+<br>Other Arrows - class has a field of pointed class
 <br>plus sign - public field
 <br>minus sig - private field
 <br>sharp sign - protected field
