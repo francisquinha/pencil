@@ -28,6 +28,39 @@ Finally, relating these 4 views, there is a **Scenarios** diagram, also known as
 
 ## Logical View in Pencil2D
 
+The nearest thing we could find related to the Logical View in Pencil2d was the roadmap diagram.
+
+<div align="center">
+	<img src= roadmap.jpeg height=300>
+</div>
+
+The roadmap suggests how key components of the Editor, from a user standpoint, should be connected without being too specific.
+
+By using Enterprise Architect reverse engineering capabilities we made a simplified class diagram with the classes that seemed to establish the project "core". This diagram does not convey tools/functionalities that Pencil2D offers, but rather the base skeleton that supports/manages them. After this diagram we present a close up on some of its  classes to present concise functionalities.
+
+>Legend:
+<br>Orange - "core classes"
+<br>Green - "core classes" that are Qt related
+<br>Full Arrow - a subclass of pointed class
+<br>Other Arrows - class as a field of pointed class
+<br>plus sign - public field
+<br>minus sig - private field
+<br>sharp sign - protected field
+
+
+<div align="center">
+	<img src= class_diagram.png  height=300>
+</div>
+<div align="center">
+	<img src= class_diagram_base_tool_closeup.png height=300>
+</div>
+<div align="center">
+	<img src= class_diagram_BitmalNobjectNlayer_closeup.png height=300>
+</div>
+<div align="center">
+	<img src= class_diagram_MainWindow2AndScribbleArea_closeup.png height=300>
+</div>
+
 ## Process View in Pencil2D
 
 ## Physical View in Pencil2D
@@ -40,7 +73,7 @@ This project uses external libraries whose main focus is to read from and write 
 The Qt framework provides the graphical interface that is going to support the visualization of the canvas. Basically it is the interface between the user and the software.
 
 <div align="center">
-	<img src= PossivelDiagramaDeCasosDeUtilizacaoParaOestadoActualPrint.png height=500>
+	<img src= Component.png height=500>
 </div>
 
 ## Use Case View
