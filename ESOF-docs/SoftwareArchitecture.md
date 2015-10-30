@@ -49,13 +49,11 @@ By using Enterprise Architect reverse engineering capabilities we made a simplif
 
 
 <div align="center">
-	<img src= class_diagram.png  height=400>
+	<img src= class_diagram.png  height=420>
 </div>
 <div align="center">
 	<img src= class_diagram_base_tool_closeup.png height=300>
 	<img src= class_diagram_BitmalNobjectNlayer_closeup.png height=300>
-</div>
-<div align="center">
 	<img src= class_diagram_MainWindow2AndScribbleArea_closeup.png height=300>
 </div>
 
