@@ -28,33 +28,45 @@ Finally, relating these 4 views, there is a **Scenarios** diagram, also known as
 
 ## Logical View in Pencil2D
 
-The nearest thing we could find related to the Logical View in Pencil2d was the roadmap diagram.
+The nearest thing we could find related to the Logical View in Pencil2d was the following roadmap diagram:
 
 <div align="center">
-	<img src= roadmap.jpeg height=200>
+	<img src= roadmap.jpeg height=400>
 </div>
 
-The roadmap suggests how key components of the Editor, from a user standpoint, should be connected without being too specific.
+It suggests how key components of the Editor, from a user standpoint, should be connected without being too specific.
 
-By using Enterprise Architect reverse engineering capabilities we made a simplified class diagram with the classes that seemed to establish the project "core". This diagram does not convey tools/functionalities that Pencil2D offers, but rather the base skeleton that supports/manages them. After this diagram we present a close up on some of its  classes to present concise functionalities.
+Using the reverse engineering capabilities of Enterprise Architect we made a simplified class diagram with the classes that seemed to establish the "core" of the project. This diagram does not convey tools/functionalities that Pencil2D offers, but rather the base skeleton that supports/manages them.
 
->Legend:
-<br>Orange - "core classes"
-<br>Green - "core classes" that are Qt related
-<br>Full Arrow - a subclass of pointed class
-<br>Other Arrows - class has a field of pointed class
+<div align="center">
+	<img src= class_diagram.png  width=700>
+</div>
+
+>Caption:
+<br>orange - "core classes"
+<br>green - "core classes" that are Qt related
+<br>full arrow - a subclass of pointed class
+<br>other arrows - class has a field of pointed class
 <br>plus sign - public field
 <br>minus sig - private field
 <br>sharp sign - protected field
 
+We also have diagrams with a close up view on some classes, in order to present concise functionalities. The first of these diagrams details the base tool. We can see how each tool was built as a subclass of this base tool.
 
 <div align="center">
-	<img src= class_diagram.png  height=420>
+	<img src= class_diagram_base_tool_closeup.png width=700>
 </div>
+
+The next class diagram presents a greater detail on layers, key frames and the bitmap image.
+
 <div align="center">
-	<img src= class_diagram_base_tool_closeup.png height=300>
-	<img src= class_diagram_BitmalNobjectNlayer_closeup.png height=300>
-	<img src= class_diagram_MainWindow2AndScribbleArea_closeup.png height=300>
+	<img src= class_diagram_BitmalNobjectNlayer_closeup.png width=700>
+</div>
+
+Finally, we have a better understanding of the several widgets and preferences that have a main window field, as well as the color widgets and their relation with the scribble area. 
+
+<div align="center">
+	<img src= class_diagram_MainWindow2AndScribbleArea_closeup.png width=700>
 </div>
 
 ## Process View in Pencil2D
@@ -63,7 +75,8 @@ By using Enterprise Architect reverse engineering capabilities we made a simplif
 
 ### Deployment Diagram
 
-Although this project hasn't seen the green light for its full release, there's the opportunity for the anyone who wishes to make use of Pencil2D  without having to get the source code and compile it so they can run it on their machines. For Mac and Windows users there's the nightly build on BitBucket and for Linux users it's hosted by TuxFamily.
+Although this project has not seen the green light for its full release, there is the opportunity for the anyone who wishes to make use of Pencil2D  without having to get the source code and compile it so they can run it on their machines. For Mac and Windows users there is the nightly build on BitBucket and for Linux users it is hosted by TuxFamily.
+
 <div align ="center">
 	<img src= Deployment.png height=100% width=100%>
 </div>
@@ -79,19 +92,21 @@ The Qt framework provides the graphical interface that is going to support the v
 	<img src= Component.png height=500 >
 </div>
 
-## Use Case View
+## Scenarios View
 
 ###Use Cases Diagram
 
-A use cases diagram was already presented previously in the [SoftwareRequirementsSpecification.md](https://github.com/francisquinha/pencil/blob/master/ESOF-docs/SoftwareRequirementsSpecification.md).
-It will be presented again below but no additional information regarding its content will be added here.
+A use cases diagram was already presented in [SoftwareRequirementsSpecification.md](https://github.com/francisquinha/pencil/blob/master/ESOF-docs/SoftwareRequirementsSpecification.md). We reproduce it here again, as the final diagram of the 4 + 1 View Model.
 
 <div align="center">
-	<img src= PossivelDiagramaDeCasosDeUtilizacaoParaOestadoActualPrint.png height=420>
+	<img src= PossivelDiagramaDeCasosDeUtilizacaoParaOestadoActualPrint.png height=600>
 </div>
 
-
 ## Conclusion
+
+As we saw, each section of the 4 + 1 View Model presents a different perspective on the same software architecture. Sometimes, it is not easy to clearly delimit what belongs in each perspective. Indeed, the same diagram type (like the class diagram), albeit with different details, can be used in several views. Also, depending on the specific software, there may not be a lot to say or show in some of these views. For example, a server-client architecture certainly has a lot more detail on the deployment diagram than a simple client application.
+
+Given the nature of our research, which picks up an ongoing software project and tries to understand the Software Engineering that may have been behind that project, it is easier to feel that our observations may be somewhat off. This was certainly the case regarding the Software Architecture behind Pencil2D.
 
 ## Bibliography
 
