@@ -75,7 +75,7 @@ Finally, we have a better understanding of the several widgets and preferences t
 
 ### Deployment Diagram
 
-Although this project has not seen the green light for its full release, there is the opportunity for the anyone who wishes to make use of Pencil2D  without having to get the source code and compile it so they can run it on their machines. For Mac and Windows users there is the nightly build on BitBucket and for Linux users it is hosted by TuxFamily.
+Although this project has not seen the green light for its full release, there is the opportunity for the anyone who wishes to make use of Pencil2D  without having to get the source code and compile it so they can run it on their machines. The Beta Version is available for Mac and Windows on BitBucket and Linux on TuxFamily. Was also released at least a nightly build to the public and more could be released at any storage website.
 
 <div align ="center">
 	<img src= Deployment.png height=100% width=100%>
