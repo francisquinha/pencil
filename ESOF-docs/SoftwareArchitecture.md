@@ -74,6 +74,16 @@ The Qt framework provides the graphical interface that is going to support the v
 
 ## Use Case View
 
+###Use Cases Diagram
+
+A use cases diagram was already presented previously in the [SoftwareRequirementsSpecification.md](https://github.com/francisquinha/pencil/blob/master/ESOF-docs/SoftwareRequirementsSpecification.md).
+It will be presented again below but no additional information regarding its content will be added here.
+
+<div align="center">
+	<img src= PossivelDiagramaDeCasosDeUtilizacaoParaOestadoActualPrint.png height=420>
+</div>
+
+
 ## Conclusion
 
 ## Bibliography
