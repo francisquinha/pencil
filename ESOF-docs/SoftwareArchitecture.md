@@ -65,7 +65,7 @@ By using Enterprise Architect reverse engineering capabilities we made a simplif
 
 Although this project hasn't seen the green light for its full release, there's the opportunity for the anyone who wishes to make use of Pencil2D  without having to get the source code and compile it so they can run it on their machines. For Mac and Windows users there's the nightly build on BitBucket and for Linux users it's hosted by TuxFamily.
 <div align ="center">
-	<img src= Deployment.png height=300>
+	<img src= Deployment.png height=500>
 </div>
 
 ## Development View in Pencil2D
