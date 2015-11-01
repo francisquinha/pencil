@@ -76,7 +76,7 @@ This project uses external libraries whose main focus is to read from and write 
 The Qt framework provides the graphical interface that is going to support the visualization of the canvas. Basically it is the interface between the user and the software.
 
 <div align="center">
-	<img src= Component.png height=500>
+	<img src= Component.png height=500 width=100%>
 </div>
 
 ## Use Case View
