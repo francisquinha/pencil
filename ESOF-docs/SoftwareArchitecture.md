@@ -71,6 +71,8 @@ Finally, we have a better understanding of the several widgets and preferences t
 
 ## Process View in Pencil2D
 
+Regarding the process view we thought that an Activity Diagram or Sequence Diagram would be too similar to the Use Cases Diagram unless it was made very detailed so we decided not to present one. With that said there are some important features in Pencil2D that can't be inferred by the UseCases Diagram like the blending of a bitmap layer keyframes or how the autosave system works.
+
 ## Physical View in Pencil2D
 
 ### Deployment Diagram
