@@ -53,8 +53,12 @@ there are still plenty of bugs from the date that this request has been issued i
 
 -------------------------------------------------------------------------------------------------------------------------
 
-Pencil2D has followed a modular implementation what it means is that the many utilities that compose the whole software where developed independently from eachother. We take this conclusion from one of the drafts we found during the gathering of the information regarding the software processes that were chosen for the development of Pencil2D.
+Pencil2D has followed a modular implementation what it means is that the many utilities that compose the whole software where
+developed independently from eachother. We take this conclusion from one of the drafts we found during the gathering of the
+information regarding the software processes that were chosen for the development of Pencil2D.
 
-That said the task to test the features that constitute Pencil2D is rather easy and simple to do. Which means that the isolateability is achieved because everything is confined in its module. For instance, if the developer wishes to test something like the BitmapLayer he only has to interact with the module that concerns that specific feature.
+That said the task to test the features that constitute Pencil2D is rather easy and simple to do. Which means that the
+isolateability is achieved because everything is confined in its module. For instance, if the developer wishes to test
+something like the BitmapLayer he only has to interact with the module that concerns that specific feature.
 
 The technology for testing that is used is based in the Qt Library.
