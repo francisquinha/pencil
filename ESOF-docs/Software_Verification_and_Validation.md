@@ -69,6 +69,9 @@ Since this is a opensource project many tests could have been done manually. It'
 Taking into account that this is not an application that works with a critical system, has a modular implementation and that a lot of features are difficult to verify without an user scope
  (ex.: it is difficult to test if color-fill functionality is working correctly by testing code alone), the coverage of code being tested (referring to the Qt Unit Tests here) by might not be as important as
   system tests and code reviewing. In this regard, Pencil2D appears to have set it's priorities straight. 
+  
+  As this project isn't yet finished the need for validation tests is relatively inferior to the verification tests furthermore the testability of a project made by a small group of developers and most of them don't have a big impact in the project the code reviewing becomes a task slightly ambiguous in the sense that there is no one else that is able to review the code not excluding the eventual contributors. In that way unit testing have a bigger role in the testing of this project because they give the feedback to the developer(being the reviewer at the same time) with the functionalities' status (if they are either working or buggy). Allowing the developer to focus mainly in the functionality.
+  
   ...TODO...
 
 ## Bibliography
