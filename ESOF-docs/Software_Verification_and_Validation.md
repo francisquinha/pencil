@@ -2,9 +2,17 @@
 
 ## Introduction
 
-Software validation focuses on verifying if the product does what was intended, that is, that it follows the specified requirements. In Pencil2D Software validation is minimal since the project has been following the specification of the original Pencil, which was already implemented when Pencil2D started. Also, this specification is not rigid, leaving some decisions for later, thus there is some uncertainty about how very specific functionalities should work. This way, validation goes along the software requirements revision. A good example of this is the [issue 328](https://github.com/pencil2d/pencil/issues/328), where something that was initially thought of as a bug, ended up being considered a feature.
+Software validation focuses on checking if the product does what was intended, that is, that it follows the specified requirements. When the software client or stakeholder is well defined, a good method of software validation is checking if the product meets the minimum acceptance requirements established by the client. This is usually not the case for open-source software, where the client is pretty mush anybody that may wish to use the software, and there is no contract establishing the acceptance conditions. In this case, the developers may validate their software through user feedback, such as complaints and feature requests, usage statistics integrated in the application and questionaries to target users.
 
-Software verification is concerned with checking if the product works properly and the functionalities that it implements execute their purpose accurately. In Pencil2D this means having a program that runs smoothly, without crashes or bugs, and in which the developed modules map well the underline core concepts regarding the creation of animations.
+In Pencil2D traditional software validation is minimal since the project has been following the requirements of the original Pencil, which where already implemented when Pencil2D started. Also, these requirements are not rigid, leaving some decisions for later, thus there is some uncertainty about how some specific functionalities should work. On the other end, user feedback seems to be quite useful. Although some of this feedback is in the bug report category, that goes beyond the scope of validation, there are also new feature requests as well as requests for current feature changes. A good example of this is [issue 328](https://github.com/pencil2d/pencil/issues/328), where something that was initially thought of as a bug, ended up being considered as a possible feature.
+
+Software verification is concerned with checking if the product works properly and the functionalities that it implements execute their purpose accurately. That is, it checks if the software is in agreement with its specification. There are two main methods of verification:
+
+- running tests and experiments, which is useful to detect bugs;
+
+- analysis of the code correctness.
+
+In Pencil2D there are some unit tests that the developers use for verification. But perhaps most of testing is done by the end users themselves, with bug reports and issue raising. Since this is an open source project, this bug detection process sometimes leads to users correcting the issues themselves.
  
 In the next section, we go further into the degree of testability in Pencil2D, discussing its controllability, observability, isolateability, separation of concerns, understandability and heterogeneity. We also present a section on test statistics for Pencil2D, where we try to evaluate aspects such as code coverage.
 
