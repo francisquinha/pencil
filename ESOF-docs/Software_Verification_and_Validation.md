@@ -2,16 +2,11 @@
 
 ## Introduction
 
-Software validation focus on checking if the product, in this case the Pencil2D application, follows what was intended for it's use (follows the specified requirements). 
-In Pencil2D Software validation is minimal since the project has been following the original Pencil's specification.
- Since this specification is not rigid and leaves some decisions to be made there maybe some uncertainty how
- very specific functionalities should work and so validation goes along the software requirements revision. A good example of this is the [issue 328](https://github.com/pencil2d/pencil/issues/328)). 
+Software validation focuses on verifying if the product does what was intended, that is, that it follows the specified requirements. In Pencil2D Software validation is minimal since the project has been following the specification of the original Pencil, which was already implemented when Pencil2D started. Also, this specification is not rigid, leaving some decisions for later, thus there is some uncertainty about how very specific functionalities should work. This way, validation goes along the software requirements revision. A good example of this is the [issue 328](https://github.com/pencil2d/pencil/issues/328), where something that was initially thought of as a bug, ended up being considered a feature.
 
- Software verification regards if the product is works properly and the models/functionalities that it implements execute their purpose accurately. In Pencil2D this means having a program
- that runs smoothly (without crashes or bugs) and which the developed modules map well the underline core concepts regarding the creation of animations.
+Software verification is concerned with checking if the product works properly and the functionalities that it implements execute their purpose accurately. In Pencil2D this means having a program that runs smoothly, without crashes or bugs, and in which the developed modules map well the underline core concepts regarding the creation of animations.
  
-...???...
- ...TODO...
+In the next section, we go further into the degree of testability in Pencil2D, discussing its controllability, observability, isolateability, separation of concerns, understandability and heterogeneity. We also present a section on test statistics for Pencil2D, where we try to evaluate aspects such as code coverage.
 
 ##  Degree of Testability
 
