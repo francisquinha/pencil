@@ -59,7 +59,7 @@ First of all, we want to observe that this is not an application that works with
 
 As this project is not yet finished the need for validation tests is relatively inferior to the verification tests. Furthermore, in a project made by a small group of developers, most of which do not have a big impact, code reviewing becomes a task slightly ambiguous, in the sense that there is no one else besides the contributors that is able to review the code. In that way unit testing has a bigger role in the testing of this project because they give the feedback to the developer (being the reviewer at the same time) with the status of the functionalities. This allows the developer to focus mainly in the functionality.
 
-We would also like to report that when we were testing this project we found out a bug concerning one of the features (the brush tool) and we submitted an issue in the master branch hoping it will be of good use for the developers. [Issue](https://github.com/pencil2d/pencil/issues/353)
+We would also like to report that when we were testing this project we found out a bug concerning one of the features (the brush tool) and we submitted an issue in the master branch hoping it will be of good use for the developers. [Issue](https://github.com/pencil2d/pencil/issues/353). Concerning another issue in this project we tried to fix one bug that was ocurring in one of the sliders in the option panel that changes the properties of the tool we selected(such as the width) but we didn't manage to fix it for now.
 
 ## Bibliography
 
