@@ -39,7 +39,7 @@ Most modules and the functionalities provided are self-explanatory and there is 
  
 ### Controllability and Observability
 
-The above mentioned tests use functions in the QT Framework library that are responsible for giving the feedback that the test has either passed or failed. One of those functions is [QCOMPARE](http://doc.qt.io/qt-5/qtest.html#QCOMPARE). If the test is somewhat large in the way that there are many calls to functions there is no way to give feedback on its final result, as the framework does not provide anything that can check the intermediate result of test.d. Test cases for the modules being currently tested can be easily modified and results easily interpreted.
+The above mentioned tests use functions in the QT Framework library that are responsible for giving the feedback that the test has either passed or failed. One of those functions is [QCOMPARE](http://doc.qt.io/qt-5/qtest.html#QCOMPARE). If the test is somewhat large in the way that there are many calls to functions there is no way to give feedback on its final result, as the framework does not provide anything that can check the intermediate result of test. Test cases for the modules being currently tested can be easily modified and results easily interpreted.
 
 It is also worth mentioning that some features cannot be properly tested using the QT framework alone and need to be checked without unit tests. Some functionalities, mainly related to drawing/sketching, can only be tested using system tests. In this regard the modular implementation may help to identify the root of certain problems, however some occurrences may be difficult to replicate.
 
