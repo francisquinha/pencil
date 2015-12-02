@@ -272,11 +272,23 @@ GeneralPage::GeneralPage(QWidget* parent) : QWidget(parent)
         highResBox->setChecked(false);
     }
 
+    //PAKI
+    QCheckBox* sliderTypeBox = new QCheckBox(tr("Use logarithmic slider on tool size"));
+      if (settings.value(SETTING_SLIDER_TYPE).toString() == "log")
+      {
+          sliderTypeBox->setChecked(true);
+      }
+      else
+      {
+          sliderTypeBox->setChecked(false);
+      }
+
     QGridLayout* editingLayout = new QGridLayout();
     editingBox->setLayout(editingLayout);
     editingLayout->addWidget(curveSmoothingLabel, 0, 0);
     editingLayout->addWidget(curveSmoothingLevel, 1, 0);
     editingLayout->addWidget(highResBox, 2, 0);
+    editingLayout->addWidget(sliderTypeBox, 3, 0);
 
     lay->addWidget(windowOpacityBox);
     lay->addWidget(appearanceBox);
@@ -293,6 +305,9 @@ GeneralPage::GeneralPage(QWidget* parent) : QWidget(parent)
     connect(antialiasingBox, SIGNAL(stateChanged(int)), parent, SIGNAL(antialiasingChange(int)));
     connect(curveSmoothingLevel, SIGNAL(valueChanged(int)), parent, SIGNAL(curveSmoothingChange(int)));
     connect(highResBox, SIGNAL(stateChanged(int)), parent, SIGNAL(highResPositionChange(int)));
+
+    //PAKI
+    connect(sliderTypeBox, SIGNAL(stateChanged(int)), parent, SIGNAL(sliderTypeChange(int)));
 
     setLayout(lay);
 }

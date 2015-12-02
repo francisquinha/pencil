@@ -186,6 +186,7 @@ void Editor::changeAutosave( int x )
     }
 }
 
+
 void Editor::changeAutosaveNumber( int number )
 {
     autosaveNumber = number;

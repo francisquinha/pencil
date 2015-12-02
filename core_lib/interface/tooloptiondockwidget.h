@@ -32,6 +32,9 @@ public slots:
     void setPressure(int);
     void setPreserveAlpha(int);
 
+    //PAKI
+    void setSliderType(int x);
+
     void displayToolOptions(QHash<ToolPropertyType, bool> options);
 
 private:

@@ -134,6 +134,7 @@ enum BackgroundStyle
 #define SHORTCUTS_GROUP         "shortcuts"
 #define SETTING_TOOL_CURSOR     "toolCursors"
 #define SETTING_HIGH_RESOLUTION "highResPosition"
+#define SETTING_SLIDER_TYPE     "slider_type"
 #define SETTING_WINDOW_GEOMETRY "WindowGeometry"
 #define SETTING_WINDOW_STATE    "WindowState"
 #define SETTING_DISPLAY_EFFECT  "RenderEffect"

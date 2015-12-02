@@ -45,6 +45,9 @@ signals:
     void toolCursorsChange(int);
     void styleChanged(int);
 
+    //PAKI
+    void sliderTypeChange(int);
+
     void autosaveChange(int);
     void autosaveNumberChange(int);
 

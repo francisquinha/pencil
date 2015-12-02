@@ -156,3 +156,18 @@ void ToolOptionWidget::displayToolOptions(QHash<ToolPropertyType, bool> options)
     }
 
 }
+
+
+//PAKI
+void ToolOptionWidget::setSliderType(int x){
+
+  QSettings settings( "Pencil", "Pencil" );
+    if( x == 0){
+        settings.setValue(SETTING_SLIDER_TYPE,"linear");
+        sizeSlider->setType("linear" );
+    }else{
+        settings.setValue(SETTING_SLIDER_TYPE,"log");
+        sizeSlider->setType( "log" );
+    }
+}
+

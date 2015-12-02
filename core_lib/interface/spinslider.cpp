@@ -81,3 +81,9 @@ void SpinSlider::sliderMoved(int value)
     // Don't update value while the slider is still moving.
     //emit valueChanged(this->value);
 }
+
+//PAKI
+void SpinSlider::setType(QString type){
+    this->type = type;
+    emit valueChanged(this->value);
+}

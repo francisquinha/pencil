@@ -18,6 +18,9 @@ public slots:
     void setValue(qreal);
     void sliderReleased();
     void sliderMoved(int);
+    //PAKI
+    void setType(QString type);
+
 signals:
     void valueChanged(qreal);
 private:

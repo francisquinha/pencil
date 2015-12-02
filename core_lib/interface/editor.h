@@ -206,6 +206,7 @@ private:
     int numberOfModifications;
 
     bool mIsAutosave;
+
     int autosaveNumber;
 
     int onionMaxOpacity;
