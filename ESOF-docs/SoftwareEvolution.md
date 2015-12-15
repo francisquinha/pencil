@@ -18,8 +18,6 @@ Even though it seems like a simple change, since the project already possesses a
 
 In the end, we managed to obtain the desired result, and to the best of our tests, nothing else was broken.
 
-TODO: something about pull request to main branch???
-
 ## Conclusion
 
 This project allowed us to obtain some practice in what is probably going to be the future for many of us. Indeed, we are very likely to end up working on some software whose origin we did not witness. It would not be uncommon for that software to be poorly documented. This means some reverse engineering will be necessary as was the case with our work on Pencil2D.
