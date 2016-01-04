@@ -72,10 +72,11 @@ Finally, we have a better understanding of the several widgets and preferences t
 ## Process View in Pencil2D
 
 Regarding the Process View we thought that most Activity Diagrams would be too similar to the use cases unless they were very detailed. With that said, there are some important features in Pencil2D that can't be inferred by the UseCases Diagram like the blending of a bitmap layer keyframes or how the autosave system works.
+
 To avoid redundant and/or over detailed exposition we present a simple activity diagram that presents the start of the application. The diagram exposes subtle features like translation and options loading. 
 
 <div align ="center">
-	<img src= pencilstart_activitydiagram.png height=100% width=100%>
+	<img src= pencilstart_activitydiagram.png height=50% width=50%>
 </div>
 
 ## Physical View in Pencil2D
