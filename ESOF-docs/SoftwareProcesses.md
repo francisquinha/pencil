@@ -191,6 +191,21 @@ There is some planning in what seems to be a modular design approach, which shou
 
 That said, there are successive software versions being released and tested, sometimes leading to redefined objectives, others simply enabling the developers to advance to the issues they wish to tackle next. All of this corresponds to an Incremental Delivery approach, which is why that is our main bet for the software process chosen for Pencil2D.
 
+
+## Overview of the chosen software process
+
+Revisiting this chapter, we have now a more complex and insightful idea on the whole project, due to our analysis of most of its aspects.
+
+Considering that the developing team is small, it will come to a point where most tasks will have to be dealt with by a single person. What we mean with this is the features that are missing most likely will be implemented by the same person that was working on many others. 
+
+We are still convinced that the software process adopted by the developing team is incremental delivery. What works the best with the choice of this software process is undoubtedly the possilibty for the developers to launch stable versions of their product in its development state. By doing this, they already have a program that is useable (to some extent) while the development team can continue working in the next features. Also, they get user feedback which plays a very import roll in the software verification and validation, while also having an influence in the future developments.
+
+As there are no real deadlines defined the features are added at the rate they are created, which we think adds a lot more flexibilty to a project like this. Of course it also has an obvious downside downside, because the project does not really have a stable flow progress, with many months going by between successive increments. This is also due to the fact that the development team is so small.
+
+We could also admit that the XP (extreme programming) software process could be used as it is a lightweight process that emphasizes on an agile approach. It meets some of incremental delivery principles such as the delivery of software to the customer (in this case to the users) in short and often iterations. It also emphasizes plenty on feedback as seen on the issue tracker for pencil2D's github repository. But it also follows a TDD (test-driven development), which obviously Pencil2D does not use, since it has very few unit tests. Of course this lack of tests in Pencil2D is not good, and so, the use of the XP process would benefit this project in two very important aspects, the speed of development and the quality of the product obtained, as fewer errors would reach the end users.
+
+It is our opinion that with a larger team, Pencil2D could have a better organized development, with faster and better delivery. As it is, there seems to be only a slight concern with the software process use, without much regard for the bennefits that would surely come from a stricter following of a software process like XP.
+
 ## Bibliography
 
 1. Github, "pencil2d/pencil". [Online].
